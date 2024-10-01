@@ -1,9 +1,8 @@
 import React from 'react'
 import ProjectItem from './ProjectItem'
 import burgerHutImg from '../../public/assets/projects/burger-hut.png'
-import nikeImg from '../../public/assets/projects/nike.png'
 import iNotebookImg from '../../public/assets/projects/iNotebook.png'
-import homyzImg from '../../public/assets/projects/homyz.png'
+import connectSpotImg from '../../public/assets/projects/connect-spot.png'
 
 const Projects = () => {
   return (
@@ -12,10 +11,9 @@ const Projects = () => {
         <p className='text-xl tracking-widest uppercase text-[#5651e5]'>Projects</p>
         <h2 className='py-4'>What I've Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
+            <ProjectItem title='Connect Spot' technology='Next.js' backgroundImg={connectSpotImg} projectUrl='/connect-spot'/>
             <ProjectItem title='Burger Hut' technology='Next.js' backgroundImg={burgerHutImg} projectUrl='/burger-hut'/>
             <ProjectItem title='iNotebook' technology='MERN' backgroundImg={iNotebookImg} projectUrl='/iNotebook'/>
-            <ProjectItem title='Homyz - Real Estate' technology='ReactJS' backgroundImg={homyzImg} projectUrl='/homyz'/>
-            <ProjectItem title='Nike Footwear' technology='ReactJS, Tailwind CSS' backgroundImg={nikeImg} projectUrl='/nike'/>
         </div>
       </div>
     </div>

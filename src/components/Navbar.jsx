@@ -17,9 +17,8 @@ const Navbar = () => {
     useEffect(()=>{
         if(
             router.asPath==='/iNotebook' ||
-            router.asPath==='/homyz' ||
-            router.asPath==='/nike' ||
-            router.asPath==='/netflix'
+            router.asPath==='/connect-spot' ||
+            router.asPath==='/burger-hut'
             ){
                 setNavBg('transparent');
                 setLinkColor('#ecf0f3');
