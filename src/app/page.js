@@ -10,7 +10,7 @@ export default function Home() {
       <Main/>
       <About/>
       <Skills/>
-      <Projects/>
+      <Projects limit={4} />
       <Contact/>
     </div>
   );
